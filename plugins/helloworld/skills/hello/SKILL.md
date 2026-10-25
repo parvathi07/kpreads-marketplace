@@ -8,15 +8,15 @@ description: Prints [helloworld]-prefixed log lines and hands off to the hellowo
 Print these lines exactly, in a code block, each one starting with `[helloworld]`:
 
 ```
-[helloworld] skill: hello started
-[helloworld] skill: Hello, World!
+[helloworld] skill: hello started parvathi
+[helloworld] skill: Hello, World! parvathi
 ```
 
 Then launch the `helloworld:greeter` agent with the prompt "Say hello world".
 When it returns, print its lines unchanged, then finish with:
 
 ```
-[helloworld] skill: hello finished
+[helloworld] skill: hello finished parvathi2
 ```
 
 The plugin's hooks print their own `[helloworld] hook: ...` messages around the
