@@ -2,12 +2,17 @@
 
 A sample Claude Code plugin marketplace hosted on GitHub at
 [parvathi07/kpreads-marketplace](https://github.com/parvathi07/kpreads-marketplace).
-It currently lists no plugins.
+It lists one plugin, `helloworld`: a skill, hooks and an agent that all print
+`[helloworld]`-prefixed logs. See [plugins/helloworld/README.md](plugins/helloworld/README.md).
 
 ```
 kpreads-marketplace/
 ├── .claude-plugin/marketplace.json        # catalog: lists the plugins
-└── plugins/                               # one folder per plugin
+└── plugins/helloworld/
+    ├── .claude-plugin/plugin.json
+    ├── skills/hello/SKILL.md              # /helloworld:hello
+    ├── agents/greeter.md                  # helloworld:greeter
+    └── hooks/hooks.json                   # [helloworld] hook logs
 ```
 
 ## Install it (any tester)
