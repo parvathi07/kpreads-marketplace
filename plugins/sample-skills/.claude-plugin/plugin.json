@@ -1,7 +1,0 @@
-{
-  "name": "sample-skills",
-  "description": "Sample plugin with a test skill, used to verify install and auto-update",
-  "author": {
-    "name": "parvathi07"
-  }
-}
