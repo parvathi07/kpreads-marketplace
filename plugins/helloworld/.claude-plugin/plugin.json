@@ -1,0 +1,7 @@
+{
+  "name": "helloworld",
+  "description": "Hello-world plugin with a skill, hooks and an agent that all print [helloworld]-prefixed logs",
+  "author": {
+    "name": "parvathi07"
+  }
+}

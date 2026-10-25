@@ -1,0 +1,20 @@
+{
+  "name": "kpreads-marketplace",
+  "description": "Sample Claude Code plugin marketplace for testing, hosted on GitHub",
+  "owner": {
+    "name": "parvathi07",
+    "email": "parvathi07@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "sample-skills",
+      "source": "./plugins/sample-skills",
+      "description": "Sample plugin with a test skill, used to verify install and auto-update"
+    },
+    {
+      "name": "helloworld",
+      "source": "./plugins/helloworld",
+      "description": "Hello-world plugin with a skill, hooks and an agent that all print [helloworld]-prefixed logs"
+    }
+  ]
+}
